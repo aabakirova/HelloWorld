@@ -18,9 +18,9 @@ public class GenderGame {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println(" What is your first name ? ");
+        System.out.println(" What is your first name: ? ");
         String fName = sc.nextLine();
-        System.out.println(" What is your last name ? ");
+        System.out.println(" What is your last name: ? ");
         String lName = sc.nextLine();
         System.out.println(" Whats your gender ? ");
         char gender = sc.next().charAt(0);
